@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--ARMA PRIM1-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/armaprim1"
+        android:stretchColumns="*">
+            <TextView
+                android:text="@string/l85a2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pw_l85a2"
+                />
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+                <TableRow>
+                    <TextView
+                        android:text="@string/damage"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/damages"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/rof"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/mob"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/mag"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="@string/l85a2_d"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/l85a2_ds"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/l85a2_rof"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/l85a2_mob"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="@string/l85a2_mag"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                </TableRow>
+            </TableLayout>
+    </TableLayout>
+
+
+    <!--ARMA PRIM2-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/armaprim2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_below="@+id/armaprim1">
+        <TextView
+            android:text="@string/m590a1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pw_m590a1"
+            />
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:text="@string/damage"
+                    android:gravity="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text="@string/damages"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/rof"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/mob"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/mag"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/m590a1_d"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/m590a1_ds"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/m590a1_rof"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/m590a1_mob"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/m590a1_mag"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+
+    <!--ARMA SEC1-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/armaprim3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_below="@+id/armaprim2">
+        <TextView
+            android:text="@string/p226mk25"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sw_p226mk25"
+            />
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:text="@string/damage"
+                    android:gravity="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text="@string/damages"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/rof"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/mob"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/mag"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/p226mk25_d"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/p226mk25_ds"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/p226mk25_rof"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/p226mk25_mob"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/p226mk25_mag"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+    <!--ARMA SEC2-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/armaprim4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_below="@+id/armaprim3">
+        <TextView
+            android:text="@string/smg11"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sw_smg11"
+            />
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:text="@string/damage"
+                    android:gravity="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text="@string/damages"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/rof"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/mob"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/mag"
+                    android:gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/smg11_d"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/smg11_ds"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/smg11_rof"
+                    android:gravity="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="@string/smg11_mob"
+                    android:gravity="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:layout_height="292dp"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/smg11_mag" />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+</RelativeLayout>

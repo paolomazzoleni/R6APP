@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallp1"
+    tools:context="org.altervista.paolomazzoleni.rainbowsixsiegeoperators.MainActivity">
+
+    <Button
+        android:id="@+id/btn_scelta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/btn_scelta"
+        android:onClick="vis_sq" />
+
+    <Button
+        android:id="@+id/btn_random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:onClick="op_rand"
+        android:text="@string/btn_random" />
+
+    <Button
+        android:id="@+id/btn_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:onClick="r6_stats"
+        android:text="@string/cercastat" />
+</RelativeLayout>

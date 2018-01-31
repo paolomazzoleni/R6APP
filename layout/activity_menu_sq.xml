@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/sq_altro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_altro"
+            android:tag="sq_altro"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_sas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_sas"
+            android:layout_below="@+id/sq_altro"
+            android:tag="sq_sas"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_fbi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_fbiswat"
+            android:layout_below="@+id/sq_sas"
+            android:tag="sq_fbi"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_gign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_gign"
+            android:layout_below="@+id/sq_fbi"
+            android:tag="sq_gign"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_spetznaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_spetznaz"
+            android:layout_below="@+id/sq_gign"
+            android:tag="sq_spetzaz"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_gsg9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_gsg9"
+            android:layout_below="@+id/sq_spetznaz"
+            android:tag="sq_gsg9"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_jtf2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_jtf2"
+            android:layout_below="@+id/sq_gsg9"
+            android:tag="sq_jtf2"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_navyseal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_navyseal"
+            android:layout_below="@+id/sq_jtf2"
+            android:tag="sq_navyseal"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_bope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_bope"
+            android:layout_below="@+id/sq_navyseal"
+            android:tag="sq_bope"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_sat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_sat"
+            android:layout_below="@+id/sq_bope"
+            android:tag="sq_sat"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_geo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_geo"
+            android:layout_below="@+id/sq_sat"
+            android:tag="sq_geo"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_sdu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_sdu"
+            android:layout_below="@+id/sq_geo"
+            android:tag="sq_sdu"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_grom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_grom"
+            android:layout_below="@+id/sq_sdu"
+            android:tag="sq_grom"
+            android:onClick="vis_op"/>
+
+        <Button
+            android:id="@+id/sq_707th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sq_707th"
+            android:layout_below="@+id/sq_grom"
+            android:tag="sq_707th"
+            android:onClick="vis_op"/>
+    </RelativeLayout>
+</ScrollView>

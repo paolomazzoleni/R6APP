@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/str_sq_sas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_sq_sas"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <ImageButton
+        android:id="@+id/btn_sledge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/str_sq_sas"
+        android:tag="sledge"
+        android:onClick="vis_op"
+        app:srcCompat="@drawable/sledge" />
+
+    <ImageButton
+        android:id="@+id/btn_thatcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/str_sq_sas"
+        android:tag="thatcher"
+        android:onClick="vis_op"
+        app:srcCompat="@drawable/thatcher" />
+
+    <ImageButton
+        android:id="@+id/btn_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_sledge"
+        android:tag="mute"
+        android:onClick="vis_op"
+        app:srcCompat="@drawable/mute" />
+
+    <ImageButton
+        android:id="@+id/btn_smoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_thatcher"
+        android:layout_below="@+id/btn_thatcher"
+        android:tag="smoke"
+        android:onClick="vis_op"
+        app:srcCompat="@drawable/smoke" />
+</RelativeLayout>

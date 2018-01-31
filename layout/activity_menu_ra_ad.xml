@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/op"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/nero"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/icon_ra_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/op"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/empty" />
+
+    <!--ARMA PRIMARIA-->
+    <TextView
+        android:id="@+id/l_pr_we"
+        android:layout_below="@+id/icon_ra_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/nero"
+        android:text="@string/armaprim"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/pr_we"
+        android:layout_below="@+id/l_pr_we"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="25sp"/>
+    <ImageView
+        android:id="@+id/im_pw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pr_we"
+        android:layout_centerHorizontal="true"/>
+
+    <!--ARMA SECONDARIA-->
+    <TextView
+        android:id="@+id/l_se_we"
+        android:layout_below="@id/im_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/nero"
+        android:text="@string/armaseco"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/se_we"
+        android:layout_below="@+id/l_se_we"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="25sp"/>
+    <ImageView
+        android:id="@+id/im_sw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/se_we"
+        android:layout_centerHorizontal="true"/>
+
+    <!--GADGET-->
+    <TextView
+        android:id="@+id/l_ga"
+        android:layout_below="@id/im_sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/nero"
+        android:text="@string/gadget"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/ga"
+        android:layout_below="@+id/l_ga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="25sp"/>
+</RelativeLayout>
