@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Rainbow Six Siege Operators</string>
+    <string name="menu_squadre">SELECT A TEAM</string>
+    <string name="btn_scelta">VIEW OPERATORS</string>
+    <string name="btn_random">RANDOM OPERATOR</string>
+    <string name="back">Torna indietro</string>
+    <string name="armiprim">Primary weapons</string>
+    <string name="armisec">Secondary weapons</string>
+    <string name="attacco">ATTACK</string>
+    <string name="difesa">DEFENSE</string>
+    <string name="armaprim">Primary weapon</string>
+    <string name="armaseco">Secondary weapon</string>
+    <string name="gadget">Gadget</string>
+    <string name="cercastat">Stats</string>
+    <string name="username">USERNAME</string>
+    <string name="platform">PLATFORM</string>
+    <string name="search">SEARCH</string>
+    <!--NOMI OPERATORI-->
+    <string name="ash">ASH</string>
+    <string name="bandit">BANDIT</string>
+    <string name="blackbeard">BLACKBEARD</string>
+    <string name="blitz">BLITZ</string>
+    <string name="buck">BUCK</string>
+    <string name="capitao">CAPITAO</string>
+    <string name="castle">CASTLE</string>
+    <string name="caveira">CAVEIRA</string>
+    <string name="doc">DOC</string>
+    <string name="dokkaebi">DOKKAEBI</string>
+    <string name="echo">ECHO</string>
+    <string name="ela">ELA</string>
+    <string name="frost">FROST</string>
+    <string name="fuze">FUZE</string>
+    <string name="glaz">GLAZ</string>
+    <string name="hibana">HIBANA</string>
+    <string name="iq">IQ</string>
+    <string name="jackal">JACKAL</string>
+    <string name="jager">JAGER</string>
+    <string name="kapkan">KAPKAN</string>
+    <string name="lesion">LESION</string>
+    <string name="mira">MIRA</string>
+    <string name="montagne">MONTAGNE</string>
+    <string name="mute">MUTE</string>
+    <string name="pulse">PULSE</string>
+    <string name="recluta">RECLUTA</string>
+    <string name="rook">ROOK</string>
+    <string name="sledge">SLEDGE</string>
+    <string name="smoke">SMOKE</string>
+    <string name="tachanka">TACHANKA</string>
+    <string name="thatcher">THATCHER</string>
+    <string name="thermite">THERMITE</string>
+    <string name="valkyrie">VALKYRIE</string>
+    <string name="vigil">VIGIL</string>
+    <string name="ying">YING</string>
+    <!--NOMI OPERATORI-->
+
+    <!--NOMI SQUADRE-->
+    <string name="str_sq_altro">RECRUIT</string>
+    <string name="str_sq_sas">SAS</string>
+    <string name="str_sq_fbiswat">FBI SWAT</string>
+    <string name="str_sq_gign">GIGN</string>
+    <string name="str_sq_spetznaz">SPETZNAZ</string>
+    <string name="str_sq_jtf2">JTF2</string>
+    <string name="str_sq_gsg9">GSG9</string>
+    <string name="str_sq_navyseal">NAVY SEAL</string>
+    <string name="str_sq_bope">BOPE</string>
+    <string name="str_sq_sat">SAT</string>
+    <string name="str_sq_geo">GEO</string>
+    <string name="str_sq_sdu">SDU</string>
+    <string name="str_sq_grom">GROM</string>
+    <string name="str_sq_707th">707th</string>
+    <!--NOMI SQUADRE-->
+
+    <!--TABELLA ARMI COLONNA INTESTAZIONE-->
+    <string name="damage">Damage</string>
+    <string name="damages">Damage(s)</string>
+    <string name="rof">Rate of fire</string>
+    <string name="mob">Mobility</string>
+    <string name="mag">Magazine</string>
+
+    <!--SAS-->
+    <!--L85A2-->
+    <string name="l85a2">L85A2</string>
+    <string name="l85a2_d">47</string>
+    <string name="l85a2_ds">39</string>
+    <string name="l85a2_rof">670</string>
+    <string name="l85a2_mob">50</string>
+    <string name="l85a2_mag">31+210</string>
+    <!--M590A1-->
+    <string name="m590a1">M590A1</string>
+    <string name="m590a1_d">45</string>
+    <string name="m590a1_ds">/</string>
+    <string name="m590a1_rof">100</string>
+    <string name="m590a1_mob">50</string>
+    <string name="m590a1_mag">7+29</string>
+    <!--P226MK25-->
+    <string name="p226mk25">P226MK25</string>
+    <string name="p226mk25_d">50</string>
+    <string name="p226mk25_ds">42</string>
+    <string name="p226mk25_rof">420</string>
+    <string name="p226mk25_mob">50</string>
+    <string name="p226mk25_mag">16+45</string>
+    <!--SMG11-->
+    <string name="smg11">SMG-11</string>
+    <string name="smg11_d">32</string>
+    <string name="smg11_ds">27</string>
+    <string name="smg11_rof">1270</string>
+    <string name="smg11_mob">50</string>
+    <string name="smg11_mag">17+48</string>
+    <!--SAS-->
+</resources>

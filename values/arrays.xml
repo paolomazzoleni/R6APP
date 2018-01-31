@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--stats-->
+    <string-array name="platforms">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+    </string-array>
+    <!--operators-->
+    <string-array name="ops">
+        <item>ASH</item><!-- 0 -->
+        <item>BLACKBEARD</item>
+        <item>BLITZ</item>
+        <item>BUCK</item>
+        <item>CAPITAO</item>
+        <item>DOKKAEBI</item>
+        <item>FUZE</item>
+        <item>GLAZ</item>
+        <item>HIBANA</item>
+        <item>IQ</item>
+        <item>JACKAL</item>
+        <item>MONTAGNE</item>
+        <item>SLEDGE</item>
+        <item>THATCHER</item>
+        <item>THERMITE</item>
+        <item>TWITCH</item>
+        <item>YING</item>
+        <item>ZOFIA</item><!--18 - array[17]-->
+        <item>BANDIT</item><!--19- array[18] -->
+        <item>CASTLE</item>
+        <item>CAVEIRA</item>
+        <item>DOC</item>
+        <item>ECHO</item>
+        <item>ELA</item>
+        <item>FROST</item>
+        <item>JAGER</item>
+        <item>KAPKAN</item>
+        <item>LESION</item>
+        <item>MIRA</item>
+        <item>MUTE</item>
+        <item>PULSE</item>
+        <item>ROOK</item>
+        <item>SMOKE</item>
+        <item>TACHANKA</item>
+        <item>VALKYRIE</item>
+        <item>VIGIL</item><!--36 - array[35]-->
+    </string-array>
+
+    <!--
+        0 - N.PRIMARIE
+        1,2,3. ARMI-PRIM
+
+        4 - N.SECONDARIE
+        5,6. ARMI-SEC
+
+        7 - N.GADGET
+        8,9. GADGET
+    -->
+    <!--ATTACCO-->
+    <string-array name="ash">
+        <item>2</item>
+        <item>G36C</item>
+        <item>R4-C</item>
+        <item>/</item>
+        <item>2</item>
+        <item>M45 MEUSOC</item>
+        <item>5.7 USG</item>
+        <item>2</item>
+        <item>Breach Charge</item>
+        <item>Stun Grenade</item>
+    </string-array>
+
+    <string-array name="blackbeard">
+        <item>2</item>
+        <item>Mk17 CQB</item>
+        <item>SR-25</item>
+        <item>/</item>
+        <item>1</item>
+        <item>D-50</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Breach Charge</item>
+        <item>Stun Grenade</item>
+    </string-array>
+
+    <string-array name="blitz">
+        <item>1</item>
+        <item>Flash Shield</item>
+        <item>/</item>
+        <item>/</item>
+        <item>1</item>
+        <item>P12</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Smoke Grenade</item>
+        <item>Breach Charge</item>
+    </string-array>
+
+    <string-array name="buck">
+        <item>2</item>
+        <item>C8-SFW</item>
+        <item>CAMRS</item>
+        <item>/</item>
+        <item>1</item>
+        <item>Mk1 9mm</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Frag Grenade</item>
+    </string-array>
+
+    <string-array name="capitao">
+        <item>2</item>
+        <item>PARA-308</item>
+        <item>M249</item>
+        <item>/</item>
+        <item>1</item>
+        <item>PRB92</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Claymore</item>
+        <item>Stun Grenade</item>
+    </string-array>
+
+    <string-array name="dokkaebi">
+        <item>2</item>
+        <item>Mk 14 EBR</item>
+        <item>BOSG.12.2</item>
+        <item>/</item>
+        <item>2</item>
+        <item>C75 Auto</item>
+        <item>SMG-12</item>
+        <item>2</item>
+        <item>Smoke Grenade</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <string-array name="fuze">
+        <item>3</item>
+        <item>Balistic Shield</item>
+        <item>6P41</item>
+        <item>AK-12</item>
+        <item>2</item>
+        <item>PMM</item>
+        <item>GSh-18</item>
+        <item>2</item>
+        <item>Breach Charge</item>
+        <item>Smoke Grenade</item>
+    </string-array>
+
+    <string-array name="glaz">
+        <item>1</item>
+        <item>OTs-03</item>
+        <item>/</item>
+        <item>/</item>
+        <item>2</item>
+        <item>GSh-18</item>
+        <item>PMM</item>
+        <item>2</item>
+        <item>Smoke Grenade</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <string-array name="hibana">
+        <item>2</item>
+        <item>Type-89</item>
+        <item>SuperNova</item>
+        <item>/</item>
+        <item>2</item>
+        <item>P229</item>
+        <item>Bearing 9</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <string-array name="iq">
+        <item>3</item>
+        <item>AUG A2</item>
+        <item>552 Commando</item>
+        <item>G8A1</item>
+        <item>1</item>
+        <item>P12</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Frag Grenade</item>
+        <item>Breach Charge</item>
+    </string-array>
+
+    <string-array name="jackal">
+        <item>3</item>
+        <item>C7E</item>
+        <item>PDW9</item>
+        <item>ITA12L</item>
+        <item>2</item>
+        <item>ITA12S</item>
+        <item>USP40</item>
+        <item>2</item>
+        <item>Smoke Grenade</item>
+        <item>Breach Charge</item>
+    </string-array>
+
+    <string-array name="montagne">
+        <item>1</item>
+        <item>Extendable Shield</item>
+        <item>/</item>
+        <item>/</item>
+        <item>2</item>
+        <item>P9</item>
+        <item>LFP586</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Smoke Grenade</item>
+    </string-array>
+
+    <string-array name="sledge">
+        <item>2</item>
+        <item>M590A1</item>
+        <item>L85A2</item>
+        <item>/</item>
+        <item>2</item>
+        <item>P226 Mk25</item>
+        <item>SMG-11</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Frag Grenade</item>
+    </string-array>
+
+    <string-array name="thatcher">
+        <item>3</item>
+        <item>AR33</item>
+        <item>L85A2</item>
+        <item>M590A1</item>
+        <item>2</item>
+        <item>P226 Mk25</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Claymore</item>
+        <item>Breach Charge</item>
+    </string-array>
+
+    <string-array name="thermite">
+        <item>2</item>
+        <item>M1014</item>
+        <item>556xi</item>
+        <item>/</item>
+        <item>2</item>
+        <item>M45 MEUSOC</item>
+        <item>5.7 USG</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <string-array name="twitch">
+        <item>3</item>
+        <item>417</item>
+        <item>SG-CQB</item>
+        <item>F2</item>
+        <item>2</item>
+        <item>P9</item>
+        <item>LFP586</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <string-array name="ying">
+        <item>2</item>
+        <item>T-95 LSW</item>
+        <item>SIX12 SD</item>
+        <item>/</item>
+        <item>1</item>
+        <item>Q-929</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Stun Grenade</item>
+        <item>Frag Grenade</item>
+    </string-array>
+
+    <string-array name="zofia">
+        <item>2</item>
+        <item>LMG-E</item>
+        <item>M762</item>
+        <item>/</item>
+        <item>1</item>
+        <item>RG15</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Breach Charge</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <!--DIFESA-->
+    <string-array name="bandit">
+        <item>2</item>
+        <item>MP7</item>
+        <item>M870</item>
+        <item>/</item>
+        <item>1</item>
+        <item>P12</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Nitro Cell</item>
+    </string-array>
+
+    <string-array name="castle">
+        <item>2</item>
+        <item>UMP45</item>
+        <item>M1014</item>
+        <item>/</item>
+        <item>2</item>
+        <item>M45 MEUSOC</item>
+        <item>5.7 USG</item>
+        <item>2</item>
+        <item>Deployable Shield</item>
+        <item>Impact Grenade</item>
+    </string-array>
+
+    <string-array name="caveira">
+        <item>2</item>
+        <item>M12</item>
+        <item>SPAS-15</item>
+        <item>/</item>
+        <item>1</item>
+        <item>Luison</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Impact Grenade</item>
+    </string-array>
+
+    <string-array name="doc">
+        <item>3</item>
+        <item>SG-CQB</item>
+        <item>MP5</item>
+        <item>P90</item>
+        <item>2</item>
+        <item>P9</item>
+        <item>LFP586</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Deployable Shield</item>
+    </string-array>
+
+    <string-array name="echo">
+        <item>2</item>
+        <item>SuperNova</item>
+        <item>MP5SD</item>
+        <item>/</item>
+        <item>2</item>
+        <item>P229</item>
+        <item>Bearing 9</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Deployable Shield</item>
+    </string-array>
+
+    <string-array name="ela">
+        <item>2</item>
+        <item>Scorpion EVO 3 A1</item>
+        <item>FO-12</item>
+        <item>/</item>
+        <item>1</item>
+        <item>RG15</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Impact Grenade</item>
+    </string-array>
+
+    <string-array name="frost">
+        <item>2</item>
+        <item>Super 90</item>
+        <item>9mm C1</item>
+        <item>/</item>
+        <item>1</item>
+        <item>Mk1 9mm</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Deployable Shield</item>
+        <item>Barbed Wire</item>
+    </string-array>
+
+    <string-array name="jager">
+        <item>2</item>
+        <item>M870</item>
+        <item>416-C CARABINE</item>
+        <item>/</item>
+        <item>1</item>
+        <item>P12</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Deployable Shield</item>
+        <item>Barbed Wire</item>
+    </string-array>
+
+    <string-array name="kapkan">
+        <item>2</item>
+        <item>9x19VSN</item>
+        <item>SASG-12</item>
+        <item>/</item>
+        <item>2</item>
+        <item>PMM</item>
+        <item>GSh-18</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Nitro Cell</item>
+    </string-array>
+
+    <string-array name="lesion">
+        <item>2</item>
+        <item>SIX12 SD</item>
+        <item>T-5 SMG</item>
+        <item>/</item>
+        <item>1</item>
+        <item>Q-929</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Impact Grenade</item>
+        <item>Deployable Shield</item>
+    </string-array>
+
+    <string-array name="mira">
+        <item>2</item>
+        <item>Vector .45 ACP</item>
+        <item>ITA12L</item>
+        <item>/</item>
+        <item>2</item>
+        <item>ITA12S</item>
+        <item>USP40</item>
+        <item>2</item>
+        <item>Deployable Shield</item>
+        <item>Nitro Cell</item>
+    </string-array>
+
+    <string-array name="mute">
+        <item>2</item>
+        <item>MP5K</item>
+        <item>M590A1</item>
+        <item>/</item>
+        <item>1</item>
+        <item>P226 Mk25</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Nitro Cell</item>
+        <item>Deployable Shield</item>
+    </string-array>
+
+    <string-array name="pulse">
+        <item>2</item>
+        <item>M1014</item>
+        <item>UMP45</item>
+        <item>/</item>
+        <item>2</item>
+        <item>M45 MEUSOC</item>
+        <item>5.7 USG</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Nitro Cell</item>
+    </string-array>
+
+    <string-array name="rook">
+        <item>3</item>
+        <item>P90</item>
+        <item>MP5</item>
+        <item>SG-CQB</item>
+        <item>2</item>
+        <item>P9</item>
+        <item>LFP586</item>
+        <item>2</item>
+        <item>Deployable Shield</item>
+        <item>Impact Grenade</item>
+    </string-array>
+
+    <string-array name="smoke">
+        <item>2</item>
+        <item>FMG-9</item>
+        <item>M590A1</item>
+        <item>/</item>
+        <item>2</item>
+        <item>P226 Mk25</item>
+        <item>SMG-11</item>
+        <item>2</item>
+        <item>Impact Grenade</item>
+        <item>Barbed Wire</item>
+    </string-array>
+
+    <string-array name="tachanka">
+        <item>2</item>
+        <item>SASG-12</item>
+        <item>9x19VSN</item>
+        <item>/</item>
+        <item>2</item>
+        <item>GSh-18</item>
+        <item>PMM</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Deployable Shield</item>
+    </string-array>
+
+    <string-array name="valkyrie">
+        <item>2</item>
+        <item>MPX</item>
+        <item>SPAS-12</item>
+        <item>/</item>
+        <item>1</item>
+        <item>D-50</item>
+        <item>/</item>
+        <item>2</item>
+        <item>Deployable Shield</item>
+        <item>Nitro Cell</item>
+    </string-array>
+
+    <string-array name="vigil">
+        <item>2</item>
+        <item>K1A</item>
+        <item>BOSG.12.2</item>
+        <item>/</item>
+        <item>2</item>
+        <item>SMG-12</item>
+        <item>C75 Auto</item>
+        <item>2</item>
+        <item>Barbed Wire</item>
+        <item>Impact Grenade</item>
+    </string-array>
+</resources>
